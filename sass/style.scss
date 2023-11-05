@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    width: 800px;
+    background: rgb(45, 0, 128);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 6px 0px rgba(66, 68, 90, 1);
+    padding: 30px 20px;
+    margin: 100px auto;
+    .list{
+        .input{
+            font-size: 20px;
+            font-weight: 500;
+            padding: 15px 28px;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .item_err{
+            font-size: 16px;
+            font-weight: 400;
+            color: red;
+            text-transform: capitalize;
+            margin-top: 10px;
+        }
+        .item{
+            .menu{
+               li{
+                    font-size: 20px;
+                    font-weight: 400;
+                    color:#fff;
+                    text-transform: capitalize;
+                    margin-top: 10px;
+               }
+            }
+        }
+    }
+    .button{
+        .btn{
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 15px 28px;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+    .buttons{
+        .clear{
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 15px 28px;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+    .buttonss{
+        .all_clear{
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 15px 28px;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
